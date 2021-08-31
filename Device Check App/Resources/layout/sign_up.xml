@@ -67,6 +67,25 @@
         android:id="@+id/editTextConfirmPass"
         />
         
+     <RadioGroup
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginHorizontal="20dp"
+          android:layout_marginTop="13dp"
+          android:id="@+id/radioGroup1"
+          >
+      <RadioButton
+          android:id="@+id/radio_user"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="USER"
+          />
+      <RadioButton android:id="@+id/radio_admin"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="ADMIN" />
+      </RadioGroup>
 
  
      <Button
